@@ -1,0 +1,13 @@
+{
+  "name": "aetra-studio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "esbuild ts/main.ts --bundle --outfile=js/app.js --format=iife --target=es2020",
+    "watch": "esbuild ts/main.ts --bundle --outfile=js/app.js --format=iife --target=es2020 --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "typescript": "^5.7.3"
+  }
+}

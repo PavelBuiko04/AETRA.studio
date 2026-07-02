@@ -1,0 +1,36 @@
+:root {
+  --color-bg: #f7f5f2;
+  --color-bg-elevated: #ffffff;
+  --color-text: #141414;
+  --color-text-secondary: #5c5c5c;
+  --color-text-muted: #8a8a8a;
+  --color-accent: #b8956a;
+  --color-accent-hover: #a68458;
+  --color-accent-soft: rgba(184, 149, 106, 0.14);
+  --color-dark: #0f0f0f;
+  --color-white: #ffffff;
+  --color-border: #e4e0da;
+  --color-border-strong: #d4cfc6;
+  --color-placeholder-1: linear-gradient(145deg, #8b5a3c 0%, #1f6f68 55%, #143d3a 100%);
+  --color-placeholder-2: linear-gradient(145deg, #c9a227 0%, #2d4a52 60%, #1a2e35 100%);
+  --color-placeholder-3: linear-gradient(145deg, #a67c52 0%, #1e3a5f 55%, #0f1f33 100%);
+  --color-placeholder-4: linear-gradient(145deg, #9a5c1a 0%, #3d6b8a 60%, #1a3344 100%);
+
+  --font-heading: "Montserrat", sans-serif;
+  --font-body: "Montserrat", sans-serif;
+
+  --radius-sm: 12px;
+  --radius-md: 24px;
+  --radius-lg: 32px;
+
+  --section-padding: clamp(5rem, 11vw, 9rem);
+  --container-width: 1240px;
+  --container-padding: clamp(1.25rem, 4vw, 3rem);
+
+  --shadow-sm: 0 4px 24px rgba(20, 20, 20, 0.04);
+  --shadow-md: 0 12px 48px rgba(20, 20, 20, 0.08);
+  --shadow-lg: 0 24px 64px rgba(20, 20, 20, 0.12);
+
+  --transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-fast: 0.2s ease;
+}
